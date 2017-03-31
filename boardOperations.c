@@ -1,14 +1,4 @@
-/*
- * boardCreation.c
-
- *
- *  Created on: 29 Mar 2017
- *      Author: liliana
- */
-
-
-#include <stdio.h>
-#include <stdlib.h>
+#include "Header.h"
 #include "crossfireOperations.h"
 
 
