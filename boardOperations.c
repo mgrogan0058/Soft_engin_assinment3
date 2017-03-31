@@ -1,4 +1,5 @@
-#include "Header.h"
+#include <stdio.h>
+#include <stdlib.h>
 #include "crossfireOperations.h"
 
 
