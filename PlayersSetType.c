@@ -1,35 +1,3 @@
-struct player type()
-{
-	
-	struct player player;
-		puts("There are four player options to choose from.");
-		puts("Enter the number corresponding to the player option.");
-		printf("1. Elf.\n2. Human.\n3. Ogre.\n4. Wizard\n");
-		
-		do{
-			printf("Please enter the number corresponding to the type for Player 1: ");
-			scanf("%d", &player.type);
-			switch(player.type)
-			{
-				case 1:
-				elf(&player);
-				break;
-				case 2:
-				human(&player);
-				break;
-				case 3:
-				ogre(&player);
-				break;
-				case 4:
-				wizard(&player);
-				break;
-				default:
-				printf("That's not a valid option.\n");
-			}
-		} while(player.type >4 || player.type < 0);
-	
-	return player;
-}
 void elf(struct player *Current_Player)
 {	
 	printf("Please enter a name for this player: ");
