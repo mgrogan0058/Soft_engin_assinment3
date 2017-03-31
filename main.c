@@ -1,12 +1,4 @@
-/*
- * main.c
-
- *
- *  Created on: 29 Mar 2017
- *      Author: liliana
- */
-
-
+#include "Header.h"
 #include <stdio.h>
 #include "crossfireOperations.h"
 
